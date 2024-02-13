@@ -30,6 +30,14 @@ The API is currently hosted at [https://socialmediaicon.vercel.app/](https://soc
                     <td>LinkedIn</td>
                     <td><img src="https://socialmediaicon.vercel.app/linkedin" alt="LinkedIn Icon"></td>
                 </tr>
+                <tr>
+                    <td>Snapchat</td>
+                    <td><img src="https://socialmediaicon.vercel.app/snapchat" alt="Snapchat Icon"></td>
+                </tr>
+                <tr>
+                    <td>Pinterest</td>
+                    <td><img src="https://socialmediaicon.vercel.app/pinterest" alt="Pinterest Icon"></td>
+                </tr>
         </table>
 </div>
 
