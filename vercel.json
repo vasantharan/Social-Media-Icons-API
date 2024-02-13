@@ -1,17 +1,3 @@
 {
-    "version": 2,
-    "builds": [
-    {
-        "src": "src/index.js",
-        "use": "@vercel/node"
-    }
-    ],
-    "routes": [
-    {
-        // Specify which paths will route to a destination using a regex
-        "src": "/(.*)",
-        // Specify the paths' destination
-        "dest": "src/index.js"
-    }
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "src/index.js" }]
 }
