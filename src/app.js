@@ -22,6 +22,12 @@ const socialMediaIcons = {
   "youtube": "youtube.png",
   "medium" : "medium.png",
   "linkedin" : "linkedin.png",
+  "whatsapp" : "whatsapp.png",
+  "spotify" : "spotify.png",
+  "reddit" : "reddit.png",
+  "skype" : "skype.png",
+  "internet" : "internet.png",
+  "telegram" : "telegram.png",
 };
 
 const app = express();
