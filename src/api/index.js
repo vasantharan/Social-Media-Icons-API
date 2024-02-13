@@ -12,4 +12,4 @@ router.get('/', (req, res) => {
 
 router.use('/emojis', emojis);
 
-module.exports = router;
+module.exports = router; 
