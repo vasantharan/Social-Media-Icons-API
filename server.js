@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const sharp = require('sharp');
-
 const app = express();
 const PORT = process.env.PORT || 3000;
 const iconsDirectory = path.join(__dirname, 'icons');
@@ -13,6 +12,9 @@ const socialMediaIcons = {
     "pinterest": "pinterest.png",
     "snapchat": "snapchat.png",
     "twitter-x": "twitter_x.png",
+    "youtube": "youtube.png",
+    "medium" : "medium.png",
+    "linkedin" : "linkedin.png",
 };
 
 app.get('/icons', (req, res) => {
