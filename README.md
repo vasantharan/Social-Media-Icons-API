@@ -38,6 +38,22 @@ The API is currently hosted at [https://socialmediaicon.vercel.app/](https://soc
                     <td>Pinterest</td>
                     <td><img src="https://socialmediaicon.vercel.app/pinterest" alt="Pinterest Icon"></td>
                 </tr>
+                <tr>
+                    <td>X</td>
+                    <td><img src="https://socialmediaicon.vercel.app/twitter-x" alt="X Icon"></td>
+                </tr>
+                <tr>
+                    <td>GitHub</td>
+                    <td><img src="https://socialmediaicon.vercel.app/github" alt="GitHub Icon"></td>
+                </tr>
+                <tr>
+                    <td>Medium</td>
+                    <td><img src="https://socialmediaicon.vercel.app/medium" alt="Medium Icon"></td>
+                </tr>
+                <tr>
+                    <td>Youtube</td>
+                    <td><img src="https://socialmediaicon.vercel.app/youtube" alt="Youtube Icon"></td>
+                </tr>
         </table>
 </div>
 
@@ -100,6 +116,10 @@ Please ensure your code adheres to the existing code style and includes appropri
 - `GET /linkedin`: Retrieve the LinkedIn icon.
 - `GET /snapchat` : Retrieve the Snapchat icon.
 - `GET /pinterest`: Retrieve the Pinterest icon.
+- `GET /twitter-x`: Retrieve the X icon.
+- `GET /github`: Retrieve the GitHub icon.
+- `GET /medium`: Retrieve the Medium icon.
+- `GET /youtube`: Retrieve the Youtube icon.
 
 ## License
 
