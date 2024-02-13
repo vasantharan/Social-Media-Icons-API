@@ -54,6 +54,30 @@ The API is currently hosted at [https://socialmediaicon.vercel.app/](https://soc
                     <td>Youtube</td>
                     <td><img src="https://socialmediaicon.vercel.app/youtube" alt="Youtube Icon"></td>
                 </tr>
+                <tr>
+                    <td>Spotify</td>
+                    <td><img src="https://socialmediaicon.vercel.app/spotify" alt="Spotify Icon"></td>
+                </tr>
+                <tr>
+                    <td>Skype</td>
+                    <td><img src="https://socialmediaicon.vercel.app/skype" alt="Skype Icon"></td>
+                </tr>
+                <tr>
+                    <td>Telegram</td>
+                    <td><img src="https://socialmediaicon.vercel.app/telegram" alt="Telegram Icon"></td>
+                </tr>
+                <tr>
+                    <td>Whatsapp</td>
+                    <td><img src="https://socialmediaicon.vercel.app/whatsapp" alt="Whatsapp Icon"></td>
+                </tr>
+                <tr>
+                    <td>Reddit</td>
+                    <td><img src="https://socialmediaicon.vercel.app/reddit" alt="Reddit Icon"></td>
+                </tr>
+                <tr>
+                    <td>Webpage</td>
+                    <td><img src="https://socialmediaicon.vercel.app/internet" alt="Webpage Icon"></td>
+                </tr>
         </table>
 </div>
 
@@ -120,6 +144,12 @@ Please ensure your code adheres to the existing code style and includes appropri
 - `GET /github`: Retrieve the GitHub icon.
 - `GET /medium`: Retrieve the Medium icon.
 - `GET /youtube`: Retrieve the Youtube icon.
+- `GET /spotify`: Retrieve the Spotify icon.
+- `GET /skype`: Retrieve the Skype icon.
+- `GET /telegram`: Retrieve the Telegram icon.
+- `GET /whatsapp`: Retrieve the Whatsapp icon.
+- `GET /reddit`: Retrieve the Reddit icon.
+- `GET /internet`: Retrieve the Webpage icon.
 
 ## License
 
