@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const sharp = require('sharp');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 const iconsDirectory = path.join(__dirname, 'icons');
 const socialMediaIcons = {
     "twitter": "twitter.png",
@@ -50,3 +50,5 @@ app.get('/:platform', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
+module.exports = app
