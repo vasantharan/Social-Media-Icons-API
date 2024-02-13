@@ -17,11 +17,15 @@ const socialMediaIcons = {
     "linkedin" : "linkedin.png",
 };
 
-app.get('/icons', (req, res) => {
-    res.json(Object.keys(socialMediaIcons));
+app.get('/', (req, res) => {
+    res.send('Hey this is my API running 🥳')
 });
 
-app.get('/icons/:platform', (req, res) => {
+// app.get('/icons', (req, res) => {
+//     res.json(Object.keys(socialMediaIcons));
+// });
+
+app.get('/:platform', (req, res) => {
     const platform = req.params.platform.toLowerCase();
     const iconFileName = socialMediaIcons[platform];
 
