@@ -127,7 +127,7 @@ Contributions to the Social Media Icons API are welcome! If you'd like to contri
 2. Create a new branch (`git checkout -b feature`)
 3. Make your changes
 4. Commit your changes (`git commit -am 'Add new feature'`)
-5. Push to the branch (git push origin feature)
+5. Push to the branch (`git push origin feature`)
 6. Create a new Pull Request
 
 Please ensure your code adheres to the existing code style and includes appropriate documentation.
